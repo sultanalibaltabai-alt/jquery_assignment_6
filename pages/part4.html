@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part 4 | jQuery Assignment 6</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="site-title" href="../index.html">jQuery Assignment #6</a>
+            <nav class="navbar" aria-label="Main navigation">
+            <a href="../index.html">Home</a>
+            <a href="../pages/part1.html">Part 1</a>
+            <a href="../pages/part2.html">Part 2</a>
+            <a href="../pages/part3.html">Part 3</a>
+            <a href="../pages/part4.html" class="active">Part 4</a>
+            <a href="../pages/part5.html">Part 5</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="page-heading">
+            <h1>Part 4. jQuery Animations</h1>
+            <p>Tasks 8–10: animate a square by changing its size, position, and opacity.</p>
+        </div>
+        <section class="card">
+            <h2>Task 8. Basic Animation</h2>
+            <p>The square becomes larger and moves to the right.</p>
+            <div class="animation-stage"><div id="basicBox" class="animation-box"></div></div>
+            <div class="button-row">
+                <button id="startBasic" type="button">Start Animation</button>
+                <button id="resetBasic" type="button">Reset</button>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Task 9. Sequential Animations</h2>
+            <p>Move right → move down → shrink → return to the starting position.</p>
+            <div class="animation-stage"><div id="sequenceBox" class="animation-box"></div></div>
+            <div class="button-row">
+                <button id="startSequence" type="button">Start Sequence</button>
+                <button id="resetSequence" type="button">Reset</button>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Task 10. Combined Animation</h2>
+            <p>Change position, size, and opacity in one animation.</p>
+            <div class="animation-stage"><div id="combinedBox" class="animation-box"></div></div>
+            <div class="button-row">
+                <button id="startCombined" type="button">Start Animation</button>
+                <button id="resetCombined" type="button">Reset</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        Student: <span class="student-name">Sultanali</span> | Group: <span class="student-group">SE-2529</span>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/part4.js"></script>
+</body>
+</html>

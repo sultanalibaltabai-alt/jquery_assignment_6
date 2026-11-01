@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part 1 | jQuery Assignment 6</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="site-title" href="../index.html">jQuery Assignment #6</a>
+            <nav class="navbar" aria-label="Main navigation">
+            <a href="../index.html">Home</a>
+            <a href="../pages/part1.html" class="active">Part 1</a>
+            <a href="../pages/part2.html">Part 2</a>
+            <a href="../pages/part3.html">Part 3</a>
+            <a href="../pages/part4.html">Part 4</a>
+            <a href="../pages/part5.html">Part 5</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="page-heading">
+            <h1>Part 1. Getting Started with jQuery</h1>
+            <p>Tasks 0–1: load jQuery, select elements, and change text and styles.</p>
+        </div>
+        <section class="card">
+            <h2>Task 0. Setup</h2>
+            <p>jQuery is loaded from a CDN. Open the browser console to see:</p>
+            <p class="code-output">jQuery is ready!</p>
+        </section>
+
+        <section class="card">
+            <h2>Task 1. Selectors &amp; CSS</h2>
+            <p>Click the button to change the examples using an ID, a class, and a tag selector.</p>
+            <div class="demo-area">
+                <p id="idExample">ID selector: original text</p>
+                <p class="classExample">Class selector: original content</p>
+                <p>Tag selector: <em>original color</em></p>
+            </div>
+            <button id="changeSelectors" type="button">Change content and styles</button>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        Student: <span class="student-name">Sultanali</span> | Group: <span class="student-group">SE-2529</span>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/part1.js"></script>
+</body>
+</html>

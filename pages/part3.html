@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part 3 | jQuery Assignment 6</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="site-title" href="../index.html">jQuery Assignment #6</a>
+            <nav class="navbar" aria-label="Main navigation">
+            <a href="../index.html">Home</a>
+            <a href="../pages/part1.html">Part 1</a>
+            <a href="../pages/part2.html">Part 2</a>
+            <a href="../pages/part3.html" class="active">Part 3</a>
+            <a href="../pages/part4.html">Part 4</a>
+            <a href="../pages/part5.html">Part 5</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="page-heading">
+            <h1>Part 3. DOM Manipulation</h1>
+            <p>Tasks 5–7: add elements, change attributes, and read form values.</p>
+        </div>
+        <section class="card">
+            <h2>Task 5. Add &amp; Remove Elements</h2>
+            <ul id="itemList" class="item-list">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+            <div class="button-row">
+                <button id="addLast" type="button">Add Item (End)</button>
+                <button id="addFirst" type="button">Add Item (Beginning)</button>
+                <button id="removeLast" type="button">Remove Item</button>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Task 6. Modifying Attributes</h2>
+            <p>Change the image source with <code>.attr("src")</code>.</p>
+            <img id="attributeImage" class="demo-image" src="../assets/images/sun.svg" alt="Illustration of mountains in daylight">
+            <div class="button-row">
+                <button id="changeImage" type="button">Change Image</button>
+            </div>
+            <p>Change this link's destination with <code>.attr("href")</code>.</p>
+            <p><a id="resourceLink" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">Open JavaScript documentation</a></p>
+            <button id="changeLink" type="button">Change Link to jQuery Docs</button>
+        </section>
+
+        <section class="card">
+            <h2>Task 7. Form Interaction</h2>
+            <form id="contactForm" class="form-area">
+                <label for="nameInput">Name</label>
+                <input id="nameInput" type="text" placeholder="Enter your name" autocomplete="name">
+                <label for="emailInput">Email</label>
+                <input id="emailInput" type="email" placeholder="Enter your email" autocomplete="email">
+            </form>
+            <div class="live-preview" aria-live="polite">
+                <p><strong>Name:</strong> <span id="namePreview">—</span></p>
+                <p><strong>Email:</strong> <span id="emailPreview">—</span></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        Student: <span class="student-name">Sultanali</span> | Group: <span class="student-group">SE-2529</span>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/part3.js"></script>
+</body>
+</html>
